@@ -1,0 +1,62 @@
+name: meeting_room_booking
+description: >
+  Application Flutter de réservation de salles de réunion avec authentification sécurisée, calendrier interactif et interface moderne.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.7.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Icônes iOS par défaut
+  cupertino_icons: ^1.0.2
+
+  # Fonts + SVG
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.0.10+1
+
+  # Animations & effets visuels
+  shimmer: ^3.0.0
+  flutter_spinkit: ^5.2.0
+  lottie: ^3.1.0
+
+  # Navigation moderne
+  go_router: ^13.0.1
+
+  # State management
+  provider: ^6.1.2
+
+  # Appels réseau (HTTP client moderne)
+  dio: ^5.4.3+1
+
+  # Stockage local & sécurisé
+  shared_preferences: ^2.2.3
+  flutter_secure_storage: ^8.0.0
+
+
+  # Calendrier et localisation
+  intl: ^0.19.0
+  table_calendar: ^3.0.9
+
+  # Feedback visuel
+  fluttertoast: ^8.2.4
+
+  # Logging
+  logger: ^2.0.2
+
+  # Couleurs dynamiques (Material You)
+  material_color_utilities: ^0.11.1
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
